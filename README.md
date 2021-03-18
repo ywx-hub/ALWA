@@ -6,7 +6,7 @@ a. Following [mmdetection](https://github.com/open-mmlab/mmdetection) for instal
 
 b. delete folders: mmdet and configs in mmdetection
 
-c.copy the folders:mmdet and  configs to mmdetection
+c.copy the folders:mmdet and  configs in this repo to mmdetection
 
 d.Prepare COCO or VOC dataset
 
