@@ -12,10 +12,10 @@ d.Prepare COCO or VOC dataset
 
 
 # Training
+//all config files for Faster R-CNN,Mask R-CNN,RetinaNet in ./configs/alwa
 
-CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29501 ./tools/dist_train.sh ./configs/alwa/voc/faster_rcnn_r50_fpn_1x_voc.py 4 --work-dir ' ./work_dirs/alwa/voc/rpn/1/' 
 
-          //all config files for Faster R-CNN,Mask R-CNN,RetinaNet in ./configs/alwa
+          CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29501 ./tools/dist_train.sh ./configs/alwa/voc/faster_rcnn_r50_fpn_1x_voc.py 4 --work-dir ' ./work_dirs/alwa/voc/rpn/1/' 
 
 # Changing setting
 If you want change the update iterations count C and choose ALWA_1 or ALWA_2 in ./mmdet/models/dense_heads/anchor_head.py
